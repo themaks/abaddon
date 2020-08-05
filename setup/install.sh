@@ -15,7 +15,6 @@ echo -e "\n\nUPGRADING OS\n\n"
 sudo apt-get update
 sudo apt-get install -y aptitude
 sudo apt-get install -y software-properties-common
-sudo apt-get upgrade -y
 
 echo -e "\n\nINSTALLING POSTGRESQL AND DOCKER\n\n"
 sudo aptitude install postgresql postgresql-client pgadmin3 build-essential python2.7-dev git curl rabbitmq-server python-psycopg2 libpq-dev recon-ng -ry
